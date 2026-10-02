@@ -11,5 +11,11 @@ public class patient {
         insuranceDetails="Private Insurance";
         doctorNotes="Needs regular check-up";
     }
+    public String getMedicalHistory(String history){
+        return medicalHistory;
+    }
+    public void updateMedicalHistory(String history) {
+        medicalHistory= history;
+    }
 
 }
