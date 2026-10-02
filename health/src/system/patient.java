@@ -5,5 +5,11 @@ public class patient {
     private String medicalHistory;
     String insuranceDetails;
     protected String doctorNotes;
+    public patient (String name, String history) {
+        patientName=name;
+        medicalHistory= history;
+        insuranceDetails="Private Insurance";
+        doctorNotes="Needs regular check-up";
+    }
 
 }
