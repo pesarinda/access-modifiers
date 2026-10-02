@@ -5,5 +5,8 @@ public class Doctor {
         system.out.printIn("patient Name: "+ patient.patientName);
         system.out.printLn("medical History: " + patient.getMedicalHistroy());
     }
+    public void updatePatient(Patient patient){
+        patient.updateMedicalHistory("updated:Patient is recovering.");
+    }
 
 }
